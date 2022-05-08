@@ -14,4 +14,4 @@ Az applikáció kezdő illetve bejelentkező oldalán több gomb is található,
 - Keresni adott gyógyszerek között
 - Illetve Kijelentkezni.
 
-A Patika.APK tepelül Fizikális eszközön is.
+A Patika.APK települ Fizikális eszközön is.
