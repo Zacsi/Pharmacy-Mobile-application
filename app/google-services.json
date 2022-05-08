@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "341601919384",
+    "project_id": "androidpatika",
+    "storage_bucket": "androidpatika.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341601919384:android:8112e192628b07c0538bed",
+        "android_client_info": {
+          "package_name": "com.example.patika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341601919384-egjkmlllvi39jugth4j8r5h746evqodl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patika",
+            "certificate_hash": "c94e6bdd346b9c8713253556b044dc78feaaefec"
+          }
+        },
+        {
+          "client_id": "341601919384-hrqecdm1e1difafs0gsrmdi4m47q2ul4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0NlylPOnqP8unmeY_gkIymCiVnNwGjWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341601919384-hrqecdm1e1difafs0gsrmdi4m47q2ul4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

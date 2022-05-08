@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Patika</string>
+    <string name="name">Felhasznalonev</string>
+    <string name="password">Jelszo</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="regisztracio">regisztracio</string>
+    <string name="username">Felhasználónév</string>
+    <string name="emailcim">E-mail cím</string>
+    <string name="jelszomegerositese">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="paciens">Páciens</string>
+    <string name="doktor">Doktor</string>
+    <string name="loginAnonymus">Bejelentkezés Vendégként</string>
+    <string name="item_placeholder">Cím</string>
+    <string name="item_info_placeholder">Alcím</string>
+    <string name="feliratom">Feliratom</string>
+    <string name="waiting">Kérem várjon...</string>
+    <string name="bejelntkez">Felhasználónév vagy E-mail cím</string>
+
+    <string-array name="medicines_names">
+        <item>Amifostine</item>
+        <item>Calcium</item>
+        <item>Dronabinol</item>
+        <item>Hydromorphone</item>
+        <item>Linezolid</item>
+        <item>Aszpirin</item>
+        <item>Potassium</item>
+        <item>Ritonavir</item>
+    </string-array>
+
+    <string-array name="medicines_desc">
+        <item>Kemoterápia által okozott mellékhatások csökkentésére!</item>
+        <item>Ásványi anyag az egészséges csontokért!</item>
+        <item>Émelygés és hányinger csökkentésére!</item>
+        <item>Ópioid fájdalom csillapitó!</item>
+        <item>Fertőzés kezelésére!</item>
+        <item>Fájdalom csillapító!</item>
+        <item>Egy ásványi anyag mely hozzájárul a test egészséges működéséhez!</item>
+        <item>Hiv vírus kezelésére alkalmatos!</item>
+    </string-array>
+
+    <array name="medicines_rates">
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>1.5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4.5</item>
+        <item>4</item>
+    </array>
+
+    <array name="medicines_images">
+        <item>@drawable/amifostine</item>
+        <item>@drawable/calcium</item>
+        <item>@drawable/dronabinol</item>
+        <item>@drawable/hydromorphone</item>
+        <item>@drawable/linezolid</item>
+        <item>@drawable/aspirin</item>
+        <item>@drawable/potassium</item>
+        <item>@drawable/ritonavir</item>
+
+    </array>
+
+    <array name="medicines_price">
+        <item>1000 ft</item>
+        <item>1500 ft</item>
+        <item>5000 ft</item>
+        <item>3000 ft</item>
+        <item>1800 ft</item>
+        <item>7000 ft</item>
+        <item>2000 ft</item>
+        <item>9000 ft</item>
+
+    </array>
+
+</resources>

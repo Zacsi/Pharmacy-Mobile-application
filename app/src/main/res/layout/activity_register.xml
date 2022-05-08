@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    >
+
+    <ImageView
+        android:id="@+id/Regisztralj"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Regisztralj"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/Def_margin"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/userEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameEditText"
+        android:layout_marginTop="@dimen/Def_margin"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailcim"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userEmailEditText"
+        android:layout_marginTop="@dimen/Def_margin"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"/>
+    <EditText
+        android:id="@+id/passwordAgainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginTop="@dimen/Def_margin"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/jelszomegerositese"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/accountTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Def_margin"
+        android:layout_marginLeft="@dimen/Def_margin"
+        android:layout_marginRight="@dimen/Def_margin"
+        android:layout_below="@+id/passwordAgainEditText"
+        >
+
+        <RadioButton
+            android:id="@+id/DoctorRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/doktor"
+            />
+
+        <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paciens"
+        />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accountTypeGroup"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="@dimen/Def_margin"
+        android:onClick="register"
+        android:text="@string/regisztracio"
+
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accountTypeGroup"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="@dimen/Def_margin"
+        android:layout_marginEnd="83dp"
+        android:layout_toEndOf="@+id/regist"
+        android:onClick="cancel"
+        android:text="@string/cancel"
+        tools:ignore="UsingOnClickInXml" />
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>
