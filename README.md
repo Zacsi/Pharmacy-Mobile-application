@@ -1,0 +1,1 @@
+# Patika_mobilalk_kotprog
