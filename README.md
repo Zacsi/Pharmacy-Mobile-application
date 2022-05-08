@@ -14,4 +14,3 @@ Az applikáció kezdő illetve bejelentkező oldalán több gomb is található,
 - Keresni adott gyógyszerek között
 - Illetve Kijelentkezni.
 
-apk helye: \app\build\intermediates\apk\debug
