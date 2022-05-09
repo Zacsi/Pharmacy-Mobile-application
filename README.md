@@ -14,4 +14,4 @@ Az applikáció kezdő illetve bejelentkező oldalán több gomb is található,
 - Keresni adott gyógyszerek között
 - Illetve Kijelentkezni.
 
-A Patika.APK települ Fizikális eszközön is.
+A Coospace-en beadott APK fájl néhány andoroid verzión nem települ ezért ha nem fut le, akkor a Patika.APK-ban ez már ki van küszöbölve.
