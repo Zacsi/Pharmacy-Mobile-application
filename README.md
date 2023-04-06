@@ -1,4 +1,4 @@
-# Patika_mobilalk_kotprog
+# Pharmacy Mobile application in Java
 
 A következő mobil applikációban egy Online Gyógyszer tárat szerettem volna elkészíteni,
 melyben a páciensek illetve az orvosok különböző műveleteket hajthatnak végre.
